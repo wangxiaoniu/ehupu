@@ -1,9 +1,7 @@
 
 
-html, body, div, p, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, form, input, select, button, textarea, iframe, table, th, td { margin: 0px; padding: 0px; }
-body, input, select, button, textarea { font-size: 12px; font-family: "lucida grande",tahoma,verdana,arial,宋体,sans-serif; }
-html {  }
-body { color: rgb(68, 68, 68); line-height: 1.231; }
+div, p, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, form, input, select, button, textarea, iframe, table, th, td { margin: 0px; padding: 0px; }
+ input, select, button, textarea { font-size: 12px; font-family: "lucida grande",tahoma,verdana,arial,宋体,sans-serif; }
 a { color: rgb(68, 68, 68); text-decoration: none; }
 a:hover { color: rgb(164, 31, 36); text-decoration: underline; }
 h1, h2, h3, h4, h5, h6 { font-size: 14px; }
@@ -13,14 +11,18 @@ button, a { cursor: pointer; }
 i, em, cite, s { font-style: normal; }
 table { border-collapse: collapse; border-spacing: 0px; }
 textarea { resize: none; }
-@media screen and (min-width: 480px),and (min-width: 768px) {
-	body{max-width:640px;margin:0 auto;}
-	.hp-wrap{max-width:100%;padding:0;margin:0;}
-	#t_main{max-width:90%;}
-	.hp-footer{max-width:100%;}
+img{max-width: 320px;
+height:auto;
+width:expression(this.width > 320 ? "100%" : this.width);
 }
-.hp-topbarNav-bd, .hp-header, .hp-wrap, .hp-footer, .hp-w { width: 80px; margin-left: auto; margin-right: auto; }
+
+.hp-topbarNav-bd, .hp-header, .hp-wrap, .hp-footer, .hp-w {padding-right: 25px;
+  padding-left: 25px;
+  margin-right: auto;
+  margin-left: auto; }
+.wap{margin:0 auto; background-color:#000;width:100%;}
 .hp-wrap { clear: both; }
+
 .clear { display: block; float: none; clear: both; overflow: hidden; width: auto; height: 0px; margin: 0px auto; padding: 0px; font-size: 0px; line-height: 0; }
 .fixClear::after, .hp-wrap::after { content: ""; display: block; clear: both; height: 0px; visibility: hidden; }
 .fixClear, .hp-wrap {  }
@@ -99,14 +101,14 @@ textarea { resize: none; }
 .hp-search .it-search { float: left; width: 180px; height: 22px; padding: 0px 4px; border: 0px none; line-height: 22px; color: rgb(153, 153, 153); }
 .hp-search .btn-search { float: left; width: 20px; height: 22px; background: rgb(234, 234, 234) url('top_ico.png') no-repeat scroll 0px -247px; border: medium none; overflow: hidden; text-indent: -99em; cursor: pointer; }
 .hp-search .hp-search-choose { display: none; position: absolute; top: 22px; left: -1px; z-index: 10; width: 208px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; border: 1px solid rgb(210, 213, 216); line-height: 22px; white-space: nowrap; overflow: hidden; }
-.hp-footer { clear: both; padding: 8px 0px 20px; margin-top: 10px; border-top: 1px solid rgb(229, 229, 229); color: rgb(153, 153, 153); text-align: center; line-height: 20px; }
+.hp-footer { clear: both; padding: 8px 0px 20px; margin-top: 10px; 
+border-top: 1px solid rgb(229, 229, 229); color: rgb(153, 153, 153); width:100%;
+text-align: center; line-height: 20px; }
 .hp-footer a, .hp-footer a:visited, .hp-footerLinks a, .hp-footerLinks a:visited { color: rgb(153, 153, 153); }
 .hp-footer a:hover, .hp-footer a:active, .hp-footerLinks a:hover, .hp-footerLinks a:active { color: rgb(164, 31, 36); }
 .hp-comment-logo-sports, .hp-comment-logo-nba, .hp-comment-logo-soccer, .hp-comment-logo-f1, .hp-comment-logo-voice, .hp-comment-logo-youxi, .hp-comment-logo-zb { background: rgb(255, 255, 255) url('comment_logo_sports.png') no-repeat scroll center center; }
 .hp-top-adTextLink:link, .hp-top-adTextLink:visited, .hp-top-adTextLink:hover { color: rgb(164, 31, 36); }
 
-
-body { color: rgb(18, 18, 18); }
 .hp-topbarNav-bd, .hp-header, .hp-wrap, .hp-footer, .hp-w { width: 990px; }
 .hp-wrap { line-height: 19px; }
 .hp-wrap p { padding: 10px 0px; }
@@ -133,7 +135,7 @@ input, textarea, select { font-size: 12px; font-family: Arial,Helvetica,sans-ser
 textarea, .textarea640 { width: 460px; height: 80px; border-width: 1px; border-style: solid; border-color: rgb(107, 107, 107) rgb(181, 181, 181) rgb(181, 181, 181) rgb(107, 107, 107); overflow-y: auto; overflow-x: hidden; padding-top: 2px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; }
 .btns4, .btns2, .btnb2, .btns6 { background: rgb(181, 0, 0) url('btnbgnew05.png') no-repeat scroll 0% 0%; width: 71px; height: 24px; padding-bottom: 3px; border: 0px none; color: rgb(255, 255, 255); cursor: pointer; }
 .btns2 { background-position: left -26px; width: 51px; }
-h1 { padding: 8px 0px 15px 10px; font-size: 18px; margin-bottom: 8px; background: transparent url('img_icon_07.gif') repeat-x scroll 0px -944px; }
+h1 { padding: 8px 0px 15px 10px; font-size: 1.2em; margin-bottom: 8px; background: transparent url('img_icon_07.gif') repeat-x scroll 0px -944px; }
 h3 { font-size: 12px; background: rgb(234, 238, 240) none repeat scroll 0% 0%; border-top: 1px solid rgb(188, 196, 203); color: rgb(181, 0, 0); height: 25px; line-height: 25px; padding-left: 10px; margin-bottom: 8px; }
 .hp-wrap h3 a:link, .hp-wrap h4 a.h4_t:link, .hp-wrap h3 a:visited, .hp-wrap h4 a.h4_t:visited, .hp-wrap h3 a:active, .hp-wrap h4 a.h4_t:active { color: rgb(181, 0, 0); }
 .hp-wrap h3 a:hover, .hp-wrap h4 a.h4_t:hover { color: rgb(119, 0, 0); text-decoration: underline; background-color: transparent; }
@@ -167,7 +169,10 @@ a.del:hover { background-position: -4px -27px; background-color: rgb(255, 255, 2
 .commend01, .f_re, .dy_v, .bbs_ad div, .message_send .message_name, #fullBg, .message_send .message_name, .rel { position: relative; }
 .commend01 span { float: left; padding-right: 5px; }
 .commend01 { z-index: 990; }
-a.commend, a.no_commend, a.wyr, a.commend:hover, a.no_commend:hover, a.commend:visited { display: block; float: left; background: transparent url('btnbgnew05.png') no-repeat scroll 0px -310px; width: 55px; height: 23px; line-height: 23px; padding-left: 32px; color: rgb(150, 20, 32); }
+a.commend, a.no_commend, a.wyr, a.commend:hover, a.no_commend:hover, 
+a.commend:visited { display: block; float: left;font-size:0.8em; 
+background: transparent url('btnbgnew05.png') no-repeat scroll 0px -310px; 
+width: 75px; height: 23px; line-height: 23px; padding-left: 32px; color: rgb(150, 20, 32); }
 a.commend:hover { background-position: 0px -338px; color: rgb(0, 102, 0); }
 .indexhonor li a.f444, #index_reg p span, .case .subhead span { color: rgb(0, 0, 0); }
 .album_upload_01 li input, .inputfile { border: 1px solid rgb(153, 153, 153); padding: 3px 0px; width: 300px; margin-right: 30px; vertical-align: middle; }
@@ -182,7 +187,7 @@ a.commend:hover { background-position: 0px -338px; color: rgb(0, 102, 0); }
 .bbs-hd-h1 { overflow: hidden; padding: 8px 0px; }
 .bbs-hd-h1 h1 { display: inline; background: transparent none repeat scroll 0% 0%; line-height: 20px; padding: 0px; margin-bottom: 0px; }
 .bbs-hd-h1 .browse { margin-left: 8px; color: rgb(153, 153, 153); vertical-align: top; }
-#back { padding: 0px 7px 0px 0px; float: left; clear: both; }
+#back { padding: 0px 1px 0px 0px;width:100%; clear: both; }
 .floor { width: 100%; clear: both; border-bottom: 1px solid rgb(187, 187, 187); border-top: 1px solid rgb(187, 187, 187); margin: 6px 0px; background: rgb(241, 241, 241) none repeat scroll 0% 0%; }
 .floor .user { position: relative; padding: 6px 0px 0px 10px; float: left; }
 .floor a.headpic img { background: transparent url('re_bgnew07.png') no-repeat scroll -664px -129px; }
@@ -203,18 +208,18 @@ a.commend:hover { background-position: 0px -338px; color: rgb(0, 102, 0); }
 .floor .sign { padding: 0px 15px 5px 5px; color: rgb(119, 119, 119); line-height: 18px; max-height: 95px; overflow: hidden; }
 blockquote { background: rgb(238, 238, 238) none repeat scroll 0% 0%; border: 1px solid rgb(221, 221, 221); margin: 5px 0px; padding: 5px 8px; }
 #code, .quote, .floor_box blockquote { background: rgb(222, 222, 222) none repeat scroll 0% 0%; padding: 0px 10px; border: 1px solid rgb(187, 187, 187); margin: 0px; }
-#re { clear: both; width: 666px; padding: 10px 0px 20px; }
+#re { clear: both; width: 100%; padding: 10px 0px 20px; }
 #re #re_top, #re #re_bottom { background: transparent url('re_bgnew07.png') no-repeat scroll 0px -9px; height: 8px; overflow: hidden; }
 #re #re_bottom { background-position: 0px 0px; }
-#re #re_box { padding: 12px 0px 20px 12px; background: rgb(244, 244, 254) none repeat scroll 0% 0%; border-left: 1px solid rgb(228, 227, 243); border-right: 1px solid rgb(228, 227, 243); }
+#re #re_box { padding:0; background: rgb(244, 244, 254) none repeat scroll 0% 0%; 
+border-left: 1px solid rgb(228, 227, 243); border-right: 1px solid rgb(228, 227, 243); }
 #re #re_box .left { margin-right: 10px; }
-#re .input { float: left; width: 585px; position: relative; z-index: 1; }
-#re_box .j_enter { width: 565px; height: 96px; border: 1px solid rgb(221, 221, 221); font-size: 14px; margin-bottom: 10px; }
+#re .input { float: left; width: 100%; position: relative; z-index: 1; }
+#re_box .j_enter { width: 90%; height: 96px; border: 1px solid rgb(221, 221, 221); font-size: 14px; margin-bottom: 10px; }
 #re .face_button { border: 0px none; background: rgb(255, 255, 255) url('re_bgnew07.png') no-repeat scroll 0px -25px; height: 21px; width: 35px; cursor: pointer; display: block; }
 #re .face_img { background: rgb(229, 229, 225) none repeat scroll 0% 0%; border: 1px solid rgb(170, 170, 170); float: left; left: 34px; padding: 2px; position: absolute; top: -83px; width: 410px; overflow-x: hidden; height: 100px; overflow-y: scroll; }
 #re .input .right { padding-right: 10px; color: rgb(51, 51, 51); }
 .fback { visibility: hidden; position: fixed; width: 22px; z-index: 980; text-align: center; }
-html body { background-image: url('undefined'); background-attachment: fixed; }
 a.btop, a.btop:visited, a.btop:hover, a.btop:visited { display: block; width: 22px; height: 47px; background: rgb(255, 255, 255) url('img_icon_07.gif') no-repeat scroll 0px -1181px; padding-top: 16px; line-height: 14px; color: rgb(85, 85, 85); }
 .fback a:hover { text-decoration: none; }
 .w_reply { border: 1px solid rgb(89, 148, 203); background: rgb(243, 245, 247) none repeat scroll 0% 0%; margin: 5px 0px 8px; padding-bottom: 10px; }
@@ -233,10 +238,11 @@ a.ilike_icon:link, a.ilike_icon:hover, a.ilike_icon:visited, a.ilike_icon:active
 .fb_pic .inputfile { width: 350px; margin: 4px 4px 4px 0px; padding: 4px 2px; border: 1px solid rgb(192, 192, 192); }
 .fb_pic .f666 { width: 60px; display: block; float: left; margin-top: 6px; }
 .w_reply { width: 671px; overflow: hidden; }
-#t_main { display: block; float: left; padding: 0px 15px 40px; width: 673px; border-right: 1px solid rgb(220, 223, 228); }
+#t_main { width: 100%; margin:0 auto; padding:0; border: 1px solid rgb(220, 223, 228); }
 .input_l_rel { position: relative; color: rgb(102, 102, 102); }
 .input_l_rel textarea { border: 1px solid rgb(225, 225, 225); }
-.input_login { position: absolute; left: 150px; top: 73px; font-size: 14px; color: rgb(34, 34, 34); z-index: 6; text-align: center; }
+.input_login { position: absolute; left: 2.5em; top: 73px; font-size: 14px; 
+color: rgb(34, 34, 34); z-index: 6; text-align: center; }
 #footer-loadedError { display: none; }
 .c_share .n { float: left; width: 65px; line-height: 18px; color: rgb(102, 102, 102); text-align: right; padding: 0px 0px 0px 5px; }
 .c_share a { width: 16px; height: 16px; float: left; margin-left: 5px; text-indent: -999999px; line-height: 0px; font-size: 0px; }
@@ -258,11 +264,29 @@ a.ilike_icon:link, a.ilike_icon:hover, a.ilike_icon:visited, a.ilike_icon:active
 .video-play-1 .btn-play { position: absolute; top: 50%; left: 50%; width: 56px; height: 56px; margin: -28px 0px 0px -28px; overflow: hidden; background: transparent url('btn-play.png') no-repeat scroll 0% 0%; }
 .hp-header { position: relative; z-index: 4; }
 .hp-mainNav-B { z-index: 4; }
-body {  }
 .clearfix {  }
 .clearfix::before, .clearfix::after { display: table; content: ""; line-height: 0; }
 .clearfix::after { clear: both; }
-.hp-topbarNav-bd, .hp-header, .hp-wrap, .hp-footer, .hp-w, .hp-threeNav, .f_re { width: 1200px; }
+.hp-topbarNav-bd, .hp-header, .hp-wrap, .hp-footer, .hp-w, .hp-threeNav, .f_re { width: 100%; }
 .hp-hide-w1024 { display: block; }
 .w_reply { width: 881px; overflow: hidden; }
-#t_main { width: 1000px; }
+@media (min-width: 768px) {
+  #t_main{
+    width: 640px;
+  }
+  .hp-footer {width: 640px;}
+}
+@media (min-width: 992px) {
+  #t_main {
+    width: 640px;
+	.hp-footer {width: 640px;}
+  }
+}
+@media (min-width: 1200px) {
+  #t_main {
+    width: 640px;
+	.hp-footer {width: 640px;}
+  }
+}
+
+}
